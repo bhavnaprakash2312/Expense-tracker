@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import './App.css';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://expense-tracker-backend-pqzg.onrender.com';
 
 function App() {
   const [expenses, setExpenses] = useState([]);
